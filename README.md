@@ -1,69 +1,43 @@
-# 🧮 Modern Calculator
+# 🧮 HorizonTechX Calculator
 
-A modern, responsive calculator built using HTML, CSS, and JavaScript.
+A modern, responsive calculator built with HTML, CSS, and JavaScript as part of the Horizon TechX Frontend Development Internship.
 
 ## 🚀 Live Demo
 
-https://sajjadursohag.github.io/HorizonTechX_Calculator/
-
-## 📸 Screenshot
-
-![Calculator Screenshot](screenshots/calculator.png)
+👉 https://sajjadursohag.github.io/HorizonTechX_Calculator/
 
 ## ✨ Features
 
-- Basic arithmetic operations: Addition, Subtraction, Multiplication, and Division
+- Addition, subtraction, multiplication, and division
 - Percentage / remainder calculation
 - Real-time result preview
-- Clear All (AC) and Delete (DEL) functionality
-- Decimal number support
-- Positive and negative number toggle
-- Keyboard support
-- Responsive design for mobile and desktop
+- Clear All (AC) and Delete (DEL)
+- Decimal and sign-change support
+- Keyboard input support
+- Responsive dark-themed interface
 - Error handling for invalid calculations
-- Modern dark UI with hover effects
 
 ## 🛠️ Technologies Used
 
-- HTML5 — Application structure
-- CSS3 — Styling, animations, and responsive layout
-- JavaScript (ES6) — Calculator logic and keyboard events
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
-## 📂 Project Structure
+## 📸 Screenshot
 
-calculator-app/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── screenshots/
-└── calculator.png
+![HorizonTechX Calculator](screenshots/calculator.png)
 
 ## 💻 Run Locally
 
-1. Clone this repository:
+1. Clone the repository:
 
-   git clone https://github.com/sajjadursohag/calculator-app.git
+   git clone https://github.com/sajjadursohag/HorizonTechX_Calculator.git
 
-2. Open the project folder in VS Code.
-3. Open index.html with Live Server.
-
-## ⌨️ Keyboard Shortcuts
-
-| Key         | Action                |
-| ----------- | --------------------- |
-| 0–9         | Enter numbers         |
-| +, -, \*, / | Arithmetic operations |
-| Enter       | Calculate result      |
-| Backspace   | Delete last character |
-| Escape      | Clear calculator      |
+2. Open the project in VS Code.
+3. Open `index.html` with Live Server.
 
 ## 👨‍💻 Author
 
 Sajjadur Rahman
 
 GitHub: https://github.com/sajjadursohag
-
-## 📄 License
-
-This project is open source and available under the MIT License.
