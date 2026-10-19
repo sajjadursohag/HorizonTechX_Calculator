@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A modern responsive calculator built with HTML, CSS and JavaScript." />
+  <title>Modern Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="calculator">
+    <header class="calculator-header">
+      <div>
+        <p class="eyebrow">SMART TOOLS</p>
+        <h1>Calculator</h1>
+      </div>
+      <div class="status-dot" title="Ready"></div>
+    </header>
+
+    <section class="display" aria-label="Calculator display">
+      <div id="expression" class="expression" aria-live="polite">0</div>
+      <div id="result" class="result">0</div>
+    </section>
+
+    <section class="buttons" aria-label="Calculator buttons">
+      <button class="btn utility" data-action="clear">AC</button>
+      <button class="btn utility" data-action="delete" aria-label="Delete last character">DEL</button>
+      <button class="btn operator" data-value="%">%</button>
+      <button class="btn operator" data-value="/">÷</button>
+
+      <button class="btn" data-value="7">7</button>
+      <button class="btn" data-value="8">8</button>
+      <button class="btn" data-value="9">9</button>
+      <button class="btn operator" data-value="*">×</button>
+
+      <button class="btn" data-value="4">4</button>
+      <button class="btn" data-value="5">5</button>
+      <button class="btn" data-value="6">6</button>
+      <button class="btn operator" data-value="-">−</button>
+
+      <button class="btn" data-value="1">1</button>
+      <button class="btn" data-value="2">2</button>
+      <button class="btn" data-value="3">3</button>
+      <button class="btn operator" data-value="+">+</button>
+
+      <button class="btn utility" data-action="sign">+/−</button>
+      <button class="btn" data-value="0">0</button>
+      <button class="btn" data-value=".">.</button>
+      <button class="btn equals" data-action="calculate">=</button>
+    </section>
+
+    <footer class="calculator-footer">
+      <span>HTML · CSS · JavaScript</span>
+      <span>Keyboard enabled</span>
+    </footer>
+  </main>
+</body>
+</html>
