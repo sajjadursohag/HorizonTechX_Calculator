@@ -1,11 +1,10 @@
-
 # 🧮 Modern Calculator
 
 A modern, responsive calculator built using HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
 
-Coming soon...
+https://sajjadursohag.github.io/HorizonTechX_Calculator/
 
 ## 📸 Screenshot
 
@@ -38,7 +37,7 @@ calculator-app/
 ├── script.js
 ├── README.md
 └── screenshots/
-    └── calculator.png
+└── calculator.png
 
 ## 💻 Run Locally
 
@@ -51,13 +50,13 @@ calculator-app/
 
 ## ⌨️ Keyboard Shortcuts
 
-| Key | Action |
-| --- | --- |
-| 0–9 | Enter numbers |
-| +, -, *, / | Arithmetic operations |
-| Enter | Calculate result |
-| Backspace | Delete last character |
-| Escape | Clear calculator |
+| Key         | Action                |
+| ----------- | --------------------- |
+| 0–9         | Enter numbers         |
+| +, -, \*, / | Arithmetic operations |
+| Enter       | Calculate result      |
+| Backspace   | Delete last character |
+| Escape      | Clear calculator      |
 
 ## 👨‍💻 Author
 
